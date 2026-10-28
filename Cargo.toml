@@ -1,0 +1,12 @@
+[package]
+name = "ctxc"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Shrink noisy terminal output to fit an LLM token budget, keeping the lines that matter"
+license = "MIT"
+repository = "https://github.com/Urthella/context-compressor"
+keywords = ["llm", "logs", "tokens", "cli", "ai-agents"]
+categories = ["command-line-utilities", "text-processing"]
+
+[dependencies]
